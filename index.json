@@ -1,0 +1,433 @@
+{
+  "scriptConfig": {
+    "mobile": {
+      "positionIdentifier": "selector",
+      "selectorArray": [
+        ".entry-content p:nth-of-type(2)",
+        ".entry-content p:nth-of-type(1)",
+        ".entry-content p:nth-of-type(1)"
+      ],
+      "placeAfter": true,
+      "publisherChannel": "65fc37e9fe34810a4d511fa3",
+      "template": "65cc632354cafa2b0c851824",
+      "mobileDFP": false,
+      "placeAdjacent": true,
+      "domainPlayerDisplay": false
+    },
+    "desktop": {
+      "positionIdentifier": "id",
+      "selectorArray": [
+        ".entry-content p:nth-of-type(15)"
+      ],
+      "placeAfter": false,
+      "publisherChannel": "65fc37e9fe34810a4d511fa3",
+      "template": "65c39e316ace6826d375686a",
+      "desktopDFP": true,
+      "placeAdjacent": false,
+      "domainPlayerDisplay": false
+    },
+    "_id": "65c3b9556ace6826d37568ac",
+    "name": "staging.playstream.media.Test_ps",
+    "description": "staging.playstream.media",
+    "publisher": "65f04335dcd9683650b3e8fb",
+    "tabletAsDesktop": true,
+    "deactivate": false,
+    "adsType": "instream",
+    "flagMobileSettings": true,
+    "createdAt": "2024-03-21T13:37:48.331Z",
+    "updatedAt": "2024-03-21T13:37:49.977Z",
+    "__v": 0,
+    "path": "65fc382cfe34810a4d511fd0.json",
+    "jsPath": "65fc382cfe34810a4d511fd0.js",
+    "jsUglyPath": "65fc382cfe34810a4d511fd0.min.js"
+  },
+  "videoPlayerData": {
+    "desktop": {
+      "65c39e316ace6826d375686a": {
+        "_id": "65c39e316ace6826d375686a",
+        "name": "staging.playstream.media.instream.DV",
+        "responsive": true,
+        "aspectRatio": "16:9",
+        "fluid": true,
+        "width": 640,
+        "height": 360,
+        "maxWidth": 640,
+        "minHeight": 360,
+        "positioning": "floating",
+        "position": "top",
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 100,
+        "marginBottom": 100,
+        "zIndex": 0,
+        "autoplay": true,
+        "autoplayAfterSecond": false,
+        "onlyRequestOnPlay": true,
+        "adsound": false,
+        "autoAdMute": false,
+        "adVolume": 50,
+        "volume": 0.1,
+        "loop": true,
+        "playOnView": false,
+        "requestOnView": false,
+        "playOnViewPercentage": 50,
+        "floatOnAd": false,
+        "sound": false,
+        "vastRetry": 5,
+        "errorLimit": 5,
+        "breakingAds": 0,
+        "preload": "auto",
+        "controls": true,
+        "playPauseButton": true,
+        "volumeButton": true,
+        "progressBar": true,
+        "fullscreenButton": true,
+        "bigPlayButton": true,
+        "duration": true,
+        "pictureInPicture": true,
+        "forwardButton": true,
+        "backwardButton": true,
+        "mobilecontrols": true,
+        "mobilePlayPauseButton": true,
+        "mobileVolumeButton": true,
+        "mobileProgressBar": true,
+        "mobileFullscreenButton": true,
+        "mobileBigPlayButton": false,
+        "mobileDuration": true,
+        "mobilePictureInPicture": true,
+        "mobileForwardButton": true,
+        "mobileBackwardButton": true,
+        "mobileFloatHeight": 13,
+        "mobileFloatWidth": 15,
+        "contentUrl": "",
+        "playListUrls": [
+          {
+            "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+            "type": "mp4",
+            "_id": "65c46c736ace6826d37569ee"
+          }
+        ],
+        "type": ".m3u8",
+        "deactivate": false,
+        "createdAt": "2024-02-07T15:13:53.371Z",
+        "updatedAt": "2024-04-05T05:46:20.364Z",
+        "__v": 0,
+        "floatingWidth": 60,
+        "playerMarginBottom": 20,
+        "playerMarginTop": 20,
+        "adsType": "instream",
+        "stickyHeight": 270,
+        "stickyWidth": 480,
+        "customCss": "",
+        "preRollAd": true,
+        "PlayerTagIds": [
+          "65f2cefa5c2c0053c23f6071",
+          "65fc3708fe34810a4d511f4e",
+          "65fc382cfe34810a4d511fd0"
+        ],
+        "clickThroughUrl": "",
+        "backgroundColor": "#000000",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqDWoluPWGb0T_YXP8-Qm9Y-7wCI8lpdDWQ&s",
+        "enableLogo": true,
+        "customLogo": false,
+        "logoLink": "https://cdn.playstream.media/logo.png",
+        "logoClickthrough": "https://playstream.media",
+        "logoHeight": 15,
+        "logoWidth": 15,
+        "logoText": "Ads By",
+        "labelColor": "#ffffff",
+        "playerAnimation": true,
+        "passback": {
+          "active": false,
+          "refreshPassback": true,
+          "refreshTime": 10,
+          "passbackUrlorTag": "tag",
+          "passbackUrl": "",
+          "passbackHeight": 250,
+          "passbackWidth": 300,
+          "backgroundColor": "white",
+          "passbackTag": "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>\n<div id=\"gpt-passback\">\n<script>\n    window.googletag = window.googletag || {cmd: []};\n    googletag.cmd.push(function() {\n    googletag.defineSlot('/22059416475/staging.playstream.media_Test_Banner', [300, 250], 'gpt-passback').addService(googletag.pubads());\n    googletag.enableServices();\n    googletag.display('gpt-passback');\n    });\n</script>\n</div>",
+          "passbackType": "other"
+        },
+        "tabInView": false,
+        "crossButton": true,
+        "crossbuttontimeout": true,
+        "crossbuttontimeouttime": 20
+      }
+    },
+    "mobile": {
+      "65cc632354cafa2b0c851824": {
+        "_id": "65cc632354cafa2b0c851824",
+        "name": "staging.playstream.media.instrea.MV",
+        "responsive": true,
+        "aspectRatio": "16:9",
+        "fluid": true,
+        "width": 640,
+        "height": 360,
+        "maxWidth": 640,
+        "minHeight": 360,
+        "positioning": "floating",
+        "position": "bottom-right",
+        "marginLeft": 0,
+        "marginRight": 30,
+        "marginTop": 0,
+        "marginBottom": 130,
+        "zIndex": 0,
+        "floatingWidth": 70,
+        "playerMarginTop": 30,
+        "playerMarginBottom": 30,
+        "adsType": "instream",
+        "stickyWidth": 300,
+        "stickyHeight": 0,
+        "autoplay": false,
+        "autoplayAfterSecond": false,
+        "adsound": false,
+        "autoAdMute": false,
+        "adVolume": 1,
+        "volume": 0.1,
+        "loop": false,
+        "playOnView": false,
+        "playOnViewPercentage": 50,
+        "sound": false,
+        "vastRetry": 15,
+        "errorLimit": 15,
+        "breakingAds": 30,
+        "preload": "auto",
+        "controls": true,
+        "playPauseButton": false,
+        "volumeButton": true,
+        "progressBar": true,
+        "fullscreenButton": true,
+        "bigPlayButton": true,
+        "duration": true,
+        "pictureInPicture": true,
+        "forwardButton": false,
+        "backwardButton": false,
+        "mobilecontrols": true,
+        "mobilePlayPauseButton": true,
+        "mobileVolumeButton": true,
+        "mobileProgressBar": true,
+        "mobileFullscreenButton": true,
+        "mobileBigPlayButton": true,
+        "mobileDuration": true,
+        "mobilePictureInPicture": false,
+        "mobileForwardButton": true,
+        "mobileBackwardButton": true,
+        "mobileFloatHeight": 0,
+        "mobileFloatWidth": 0,
+        "playListUrls": [
+          {
+            "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+            "type": "mp4",
+            "_id": "65c46c736ace6826d37569ee"
+          }
+        ],
+        "deactivate": false,
+        "createdAt": "2024-02-14T06:52:19.394Z",
+        "updatedAt": "2024-03-21T13:37:49.326Z",
+        "__v": 0,
+        "customCss": "",
+        "preRollAd": false,
+        "PlayerTagIds": [
+          "65f2cefa5c2c0053c23f6071",
+          "65fc3708fe34810a4d511f4e",
+          "65fc382cfe34810a4d511fd0"
+        ],
+        "tabInView": false,
+        "crossButton": true,
+        "crossbuttontimeout": true,
+        "crossbuttontimeouttime": 20
+      }
+    }
+  },
+  "vastTags": {
+    "desktop": {
+      "65fc37e9fe34810a4d511fa3": {
+        "660c12b1971539fd5acd2394|660c0cbc971539fd5acd2193": {
+          "660c0345e9e153556c703acds": {
+            "active": true,
+            "priority": false,
+            "capping": false,
+            "advertiserId": "65fc37e9fe34810a4d511fa3",
+            "vastTag": "https://openbid.pubmatic.com/translator?pubId=162175",
+            "stringValue": "%2Bs9HmN7w9CMzlxLO%2FhNyHenI0umN4b42oD3LHvPBXbeh%2FEPUYzi9HNcKpFFs2GLoJFCMKGRpSlTRAk0fh77BUQVGIOYQ2QXag8aWGNPxFi0ABKmOGI5JPEFHvj9A964HmjsCu1UUCeFTR85Cx6Yh2ntqiUZuWUA%2ByVdQrQpHfKcvrFo1xtgAegkc89NVdq82",
+            "provider": "openRTB",
+            "protocolversion": "2.5",
+            "timeout": 2000,
+            "auctiontype": 2,
+            "placement": 1,
+            "interstitial": 0,
+            "playbackmethod": [
+              6
+            ],
+            "maxbitrate": 3000,
+            "maxduration": 500,
+            "minduration": 1,
+            "openpublisherid": "162175",
+            "siteid": "1121005",
+            "tagid": "5391078",
+            "appsitetitle": true,
+            "mimetype": [
+              "application/javascript",
+              "applications/x-mpegU",
+              "video/mp4",
+              "video/ogg",
+              "video/webm",
+              "video/3gpp",
+              "video/H264"
+            ],
+            "api": [
+              2
+            ],
+            "protocols": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "test": 1,
+            "skippable": 1,
+            "dnt": 0,
+            "countryData": {
+              "flag": false,
+              "data": [
+                [],
+                [],
+                []
+              ]
+            },
+            "osData": {
+              "flag": false,
+              "data": []
+            },
+            "deviceTypeData": {
+              "flag": false,
+              "data": []
+            },
+            "slotId": "PS_Video_Instream_640x480_Web",
+            "minCpm": 0.25
+          },
+          "660c0345e9e153556c703acd4": {
+            "active": true,
+            "priority": false,
+            "capping": false,
+            "advertiserId": "65fc37e9fe34810a4d511fa3",
+            "vastTag": "http://rtb-generic.as.criteo.com/adsolut/auction/request?profile=326&token=B-068838",
+            "stringValue": "%2Bs9HmN7w9CMzlxLO%2FhNyHenI0umN4b42oD3LHvPBXbeh%2FEPUYzi9HNcKpFFs2GLoJFCMKGRpSlTRAk0fh77BUQVGIOYQ2QXag8aWGNPxFi0ABKmOGI5JPEFHvj9A964HmjsCu1UUCeFTR85Cx6Yh2ntqiUZuWUA%2ByVdQrQpHfKcvrFo1xtgAegkc89NVdq82",
+            "provider": "openRTB",
+            "protocolversion": "2.5",
+            "timeout": 2000,
+            "auctiontype": 2,
+            "placement": 1,
+            "interstitial": 0,
+            "playbackmethod": [
+              6
+            ],
+            "maxbitrate": 3000,
+            "maxduration": 500,
+            "minduration": 1,
+            "openpublisherid": "162175",
+            "siteid": "1121005",
+            "tagid": "5391078",
+            "appsitetitle": true,
+            "mimetype": [
+              "application/javascript",
+              "applications/x-mpegU",
+              "video/mp4",
+              "video/ogg",
+              "video/webm",
+              "video/3gpp",
+              "video/H264"
+            ],
+            "api": [
+              2
+            ],
+            "protocols": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "test": 1,
+            "skippable": 1,
+            "dnt": 0,
+            "countryData": {
+              "flag": false,
+              "data": [
+                [],
+                [],
+                []
+              ]
+            },
+            "osData": {
+              "flag": false,
+              "data": []
+            },
+            "deviceTypeData": {
+              "flag": false,
+              "data": []
+            },
+            "slotId": "PS_Video_Instream_640x480_Web",
+            "minCpm": 0.25
+          }
+        }
+      }
+    },
+    "mobile": {
+      "65fc37e9fe34810a4d511fa3": {
+        "660c12b1971539fd5acd2394|660c0cbc971539fd5acd2193": {
+          "660c0345e9e153556c703acd": {
+            "active": true,
+            "capping": false,
+            "advertiserId": "65fc37e9fe34810a4d511fa3",
+            "vastTag": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+            "stringValue": "%2Bs9HmN7w9CMzlxLO%2FhNyHenI0umN4b42oD3LHvPBXbeh%2FEPUYzi9HNcKpFFs2GLoJFCMKGRpSlTRAk0fh77BUQVGIOYQ2QXag8aWGNPxFi0ABKmOGI5JPEFHvj9A964HmjsCu1UUCeFTR85Cx6Yh2ntqiUZuWUA%2ByVdQrQpHfKcvrFo1xtgAegkc89NVdq82",
+            "countryData": {
+              "flag": false,
+              "data": [
+                [],
+                [],
+                []
+              ]
+            },
+            "osData": {
+              "flag": false,
+              "data": []
+            },
+            "deviceTypeData": {
+              "flag": false,
+              "data": []
+            }
+          },
+          "660c0291e9e153556c703a97": {
+            "active": true,
+            "advertiserId": "65fc37e9fe34810a4d511fa3",
+            "capping": false,
+            "vastTag": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+            "stringValue": "%2Bs9HmN7w9CMzlxLO%2FhNyHa621cc9974CQ8s16MxEY%2Ba0gG5tZ93PpjyLQimEClgkOALoAjMp%2FMjwrPkqtlLgSnqe%2Fk%2FA%2FSeTJKtshhNXG7U9dap00yFRnMIrVom2k6B9ZENus9LNFLVBRggnRN4ekhWpebZ6Op0Uh2XgL%2Bxl7ivN9n8%2Fj69P1qWSKOa4%2BGQx",
+            "countryData": {
+              "flag": false,
+              "data": [
+                [],
+                [],
+                []
+              ]
+            },
+            "osData": {
+              "flag": false,
+              "data": []
+            },
+            "deviceTypeData": {
+              "flag": false,
+              "data": []
+            }
+          }
+        }
+      }
+    }
+  }
+}
