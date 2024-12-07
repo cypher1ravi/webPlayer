@@ -47,13 +47,13 @@
 
         const tagId = "662133bc2e04cff57835593b";
         const pubId = "662133bc2e04cff57835593b";
-        const trackingDomain = "http://localhost:4005";
+        const trackingDomain = "https://web-player-gray.vercel.app";
 
         const currentUrl = win.location.href;
 
         // const jsonUrl = `https://dev.playstream.media/api/adserver/json?PS_TAGID=${tagId}&PS_PUB_ID=${pubId}&currentUrl=${currentUrl}`;
 
-        const jsonUrl = `./index.json`;
+        const jsonUrl = `https://web-player-gray.vercel.app/index.json`;
 
         win.playstream = {
             json: {
